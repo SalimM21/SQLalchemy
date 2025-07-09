@@ -257,4 +257,5 @@ result = connection.execute(stmt)
 print(" Clients avec plus de 5 voyageurs au total dans leurs réservations :")
 for row in result:
     print(f" {row.first_name} {row.last_name} - Total voyageurs : {row.total_travelers}")
+
     
